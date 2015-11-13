@@ -1,0 +1,27 @@
+{% extends 'main.twig' %}
+
+{% block content %}
+    <div class="row">
+        <div class="large-12 columns">
+          <img src="/img/logo.jpg">
+          <hr>
+        </div>
+      </div>
+      
+      {% include 'about_text.twig' %}
+
+      <div class="row">
+        <hr>
+        <div class="large-12 columns">
+          <h4 id="work">Work</h4>
+          <p>Click on each image!</p>
+
+          <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-4">
+            <li>
+              <a href="{{ siteUrl('bubbleromp') }}">
+              <img src="/img/bubbleromp.png"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+{% endblock content %}

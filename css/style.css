@@ -1,0 +1,32 @@
+#profile {
+    border-radius: 50%;
+}
+
+#footer {
+    background-color: #333;
+    color: #fff;
+}
+
+ul.clearing-thumbs li {
+    padding: 5px;
+}
+
+#logo {
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 40em) {
+    #logo {
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+    #logo {
+        display: block;
+        margin: 0 auto;
+    }   
+}
